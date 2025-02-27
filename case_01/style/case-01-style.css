@@ -1,0 +1,157 @@
+body>div{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+/*wam patte uda loku kotuwa*/
+body>div:first-child{
+    background: red;
+    left: 0;
+}
+
+/*dakunu patte uda loku kotuwa*/
+body>div:nth-child(2){
+    background: green;
+    right: 0;
+}
+
+/*wam patte yata loku kotuwa*/
+body>div:nth-child(3){
+    background: orange;
+    bottom: 0;
+}
+
+/*dakunu patte yata loku kotuwa*/
+body>div:nth-child(4){
+    background: deeppink;
+    right: 0;
+    bottom: 0;
+}
+
+/*mada loku kotuwa*/
+body>div:nth-child(5){
+    width: 200px;
+    height: 200px;
+    background: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*loku kotuwe mada rawma*/
+body>div>div:first-child{
+    width: 25%;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*mada rawmwala mada kotuwa*/
+body>div>div>div{
+    width: 50%;
+    aspect-ratio: 1/1;
+    background: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*mada kotuwe mada rawma*/
+body>div:nth-child(5)>div{
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    background: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*body eke wame uda rawm kalla*/
+body>div:nth-child(6){
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    border-bottom-right-radius: 100%;
+    background: white;
+    position: absolute;
+    left: 0;
+}
+
+/*body eke dakune uda rawm kalla*/
+body>div:nth-child(7){
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    border-bottom-left-radius: 100%;
+    background: white;
+    position: absolute;
+    right: 0;
+}
+
+/*body eke wame yata rawm kalla*/
+body>div:nth-child(8){
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    border-top-right-radius: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+}
+
+/*body eke dakune yata rawm kalla*/
+body>div:nth-child(9){
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    border-top-left-radius: 100%;
+    background: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*body eke mada uda ada cawaya*/
+body>div:nth-child(10){
+    background: white;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 0px 0px 100px 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*body eke mada yta ada cawaya*/
+body>div:nth-child(11){
+    background: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 100px 0px 0px;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    margin: auto;
+}
+
+body{
+    overflow: hidden;
+}
