@@ -1,0 +1,96 @@
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body>header{
+    width: 100vw;
+    height: 10vh;
+}
+
+body>header>img{
+    width: 15%;
+    padding-left: 20px;
+    position: absolute;
+}
+
+body>header>nav{
+    right: 0;
+    margin: auto;
+    padding-top: 30px;
+    padding-right: 20px;
+    position: absolute;
+}
+
+body>header>nav>a{
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+body>aside{
+    width: 18%;
+    min-height: 100vh;
+    position: absolute;
+    background: purple;
+    border-top: 3px solid black;
+}
+
+body>aside>dl>dd{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body>aside>dl>dd>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body>main{
+    width: 82%;
+    position: absolute;
+    right: 0;
+    flex: 1;
+    border-top: 3px solid black;
+}
+
+body>main>section{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+body>main>section:first-child>img{
+    position: relative;
+    width: 32.9%;
+    border-top: 1px solid orange;
+    border-left: 1px solid green;
+    border-bottom: 1px solid green;
+    border-right: 1px solid green;
+    padding: 0;
+}
+
+body>main>section:first-child>img:first-child{
+    border-left: 1px solid orange;
+}
+
+body>main>section:first-child>img:nth-child(3){
+    border-right: 1px solid orange;
+}
+
+body>footer{
+    width: 100vw;
+    background: grey;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+
+body>footer>h5{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
