@@ -1,0 +1,83 @@
+body{
+    overflow-x: hidden;
+}
+
+body>section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+body>section>div{
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+body>section:first-child>div{
+    width: 26%;
+    border: 20px solid gray;
+    position: fixed;
+    background: transparent;
+    pointer-events: none;
+    z-index: 10;
+    right: -1%;
+}
+
+body>section:first-child>div>div{
+    width: 24%;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    border: 20px solid red;
+    position: fixed;
+    background: transparent;
+    pointer-events: none;
+    left: 0;
+    right: -1%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 11;
+}
+
+body>section:nth-child(2)>div{
+    width: 24%;
+    background-color: purple;
+    position: relative;
+}
+
+p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 45%;
+    bottom: 0;
+    margin: auto;
+}
+
+body>section:nth-child(3)>div{
+    width: 24%;
+    background-color: deepskyblue;
+    position: relative;
+}
+
+body>section:nth-child(4)>div{
+    width: 24%;
+    background-color: indianred;
+    position: relative;
+}
+
+body>section:nth-child(4)>div>p{
+    top: 40%;
+}
