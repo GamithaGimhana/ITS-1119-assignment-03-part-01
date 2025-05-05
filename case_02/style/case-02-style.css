@@ -32,7 +32,7 @@ body>header>nav>a{
 
 body>aside{
     width: 18%;
-    min-height: 100vh;
+    min-height: 110vh;
     position: absolute;
     background: purple;
     border-top: 3px solid black;
@@ -84,7 +84,7 @@ body>main>section:first-child>img:nth-child(3){
 body>footer{
     width: 100vw;
     background: grey;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     margin: auto;
 }
